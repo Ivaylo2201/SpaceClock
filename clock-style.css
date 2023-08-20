@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+body {
+    background: url(space.jpg) no-repeat;
+    background-size: cover;
+}
+
+.clock-container {
+    background: transparent;
+    border: 2px solid white;
+    width: 650px;
+    height: 350px;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.date,
+.clock {
+    font-family: 'Tektur', cursive;
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.date {
+    font-size: 40px;
+    color: white;
+    top: 70%;
+}
